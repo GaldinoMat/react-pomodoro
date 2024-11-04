@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint src --fix",
+    "lint": "eslint src",
     "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
+    "date-fns": "^4.1.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
